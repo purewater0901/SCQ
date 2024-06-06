@@ -1,0 +1,20 @@
+env: halfcheetah-medium-v2
+policy: SCQ
+eval_episodes: 10
+eval_freq: 5000
+# TD3
+discount: 0.99
+actor_learning_rate: 0.0003
+critic_learning_rate: 0.0003
+actor_num_hidden_layers: 2
+critic_num_hidden_layers: 2
+normalize_reward: False
+use_layernormalization: False
+use_actor_scheduler: True
+log_sig_min: -3.0
+
+# Trust Region CQL
+critic_penalty_coef: 10.0
+
+option_name: "ablation"
+
