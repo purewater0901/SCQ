@@ -128,7 +128,7 @@ def main():
     if args.option_name:
         group_name = group_name + "_" + str(args.option_name)
 
-    wandb.init(project="Trust Region Offline Q Learning", config=args, group=group_name)
+    wandb.init(project="Strategically Conservative Q Learning", config=args, group=group_name)
     if args.lagrange_tau:
         wandb.run.name = f"{project_name}_lagrange_tau{args.lagrange_tau}_seed{args.seed}"
     else:
