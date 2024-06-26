@@ -1,6 +1,6 @@
 # Strategically Conservative Q Learning
 
-Author's Pytorch implementation of **SCQ**.
+Author's Pytorch implementation of **SCQ** [(Paper Link)](https://arxiv.org/abs/2406.04534v1).
 
 ## Install
 
