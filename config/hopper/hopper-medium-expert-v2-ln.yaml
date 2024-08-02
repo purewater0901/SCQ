@@ -1,8 +1,9 @@
-env: halfcheetah-expert-v2
+env: hopper-medium-expert-v2
 policy: SAC
 eval_episodes: 10
 eval_freq: 5000
-# TD3
+
+# SCQ
 discount: 0.99
 actor_learning_rate: 0.0003
 critic_learning_rate: 0.0003
